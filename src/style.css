@@ -1,21 +1,21 @@
 html {
     --section-background-color: linear-gradient(
       to bottom left,
-      #8B7356,
-      rgb(9, 12, 81)
+      #070e16,
+      #1b263b
     );
   
     --image-gradient: linear-gradient(
       to bottom left,
-      #8B7356
-      rgb(9, 12, 81)
+      #070e16,
+      #1b263b
     );
   
-    --imp-text-color: #8B7356;
+    --imp-text-color: #FC814A;
   }
   
   .purple {
-    color: #E59D23 !important;
+    color: #FC814A !important;
   }
   
   button:focus {
@@ -57,7 +57,7 @@ html {
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background:       #FCA311;
+    background:       rgb(10, 4, 22);
   }
   
   /* Handle */
@@ -68,7 +68,7 @@ html {
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #C9ADA7;
+    background: #312966;
     border-radius: 12px;
   }
   
@@ -76,7 +76,7 @@ html {
   /* Navbar Section  */
   /* --------- */
   .sticky {
-    background-color: #0b1345 !important;
+    background-color: rgb(10, 4, 22) !important;
     transition: all 0.3s ease-out 0s !important;
     box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
     backdrop-filter: blur(15px) !important;
@@ -194,7 +194,7 @@ html {
     height: 5px;
     width: 0;
     border-radius: 16px;
-    background: #E59D23;
+    background: #FC814A;
     bottom: 1px;
     left: 0;
     z-index: -1;

@@ -20,7 +20,7 @@ function Home2() {
               About <span className="purple"> Me </span> 
             </h1>
             <p className="home-about-body">
-            Working as a data manager but passionate about coding and software develoment
+            Experienced data manager and marketing analyst.
               <br />
               <br />Proficient in 
               <i>
@@ -32,17 +32,19 @@ function Home2() {
               </i>
               <br />
               <br />
-              I enjoy&nbsp;developing technologies to streamline services and jobs for both buisnesses and individuals 
+              Techincal specialisty&nbsp;developing technologies to streamline services and analytics for both buisnesses and individuals 
   
               <br />
               <br />
               Also experienced
-              with <b className="purple">data piplelines</b>
+              with creating<b className="purple"> data piplelines</b>
               <i>
               </i>
-              &nbsp; using
+              &nbsp;using
               <i>
-                <b className="purple"> Aws, Snowflake and dbt</b>
+                <b className="purple"> Aws</b> and <b className="purple">Snowflake</b>
+                , along with using other analytic services like <b className="purple">GA4</b> and <b className="purple">Google Tag Manger</b>
+
               </i>
             </p>
           </Col>

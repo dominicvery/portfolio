@@ -15,8 +15,10 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import ReactGA from 'react-ga';
 
 function App() {
+
   const [load, upadateLoad] = useState(true);
 
   useEffect(() => {
@@ -28,6 +30,7 @@ function App() {
   }, []);
 
   return (
+    <>
     <Router>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
@@ -41,6 +44,7 @@ function App() {
         <Footer />
       </div>
     </Router>
+    </>
   );
 }
 
